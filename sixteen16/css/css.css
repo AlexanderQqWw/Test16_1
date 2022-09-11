@@ -1,0 +1,198 @@
+body{
+    background: #878ead;
+}
+.container{
+    width: 750px;
+    height: 750px;
+    background: linear-gradient(to top, #d59ef5 0%, hsl(319, 100%, 96%) 60%);
+    border: 3px rgb(0, 0, 0) solid ;
+    margin: auto;
+    border-radius: 8%;
+    position: relative;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 62px;
+}
+.row1 div{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);   
+    text-align: center;
+    line-height: 100px;
+    background: #a0d2eb;
+    font-size: 350%;
+    font-family: url('../fonts/vag_world_bold.svg#vag_world_bold');
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 62px;
+}
+.row2 div{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+    border-radius: 50%;
+    color: black;   
+    text-align: center;
+    line-height: 100px;
+    background: #a0d2eb;
+    font-size: 350%;
+    font-family: url('../fonts/vag_world_bold.svg#vag_world_bold');
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 62px;
+}
+.row3 div{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+    border-radius: 50%;
+    color: black;   
+    text-align: center;
+    line-height: 100px;
+    background: #a0d2eb;
+    font-size: 350%;
+    font-family: url('../fonts/vag_world_bold.svg#vag_world_bold');
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+.row4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 62px;
+}
+.row4 div{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+    border-radius: 50%;
+    color: black;   
+    text-align: center;
+    line-height: 100px;
+    background: #a0d2eb;
+    font-size: 350%;
+    font-family: url('../fonts/vag_world_bold.svg#vag_world_bold');
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+.row1 div:hover {
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.6);
+    transition: all 0.3s ease-in-out;
+}
+.row2 div:hover{
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.6);
+    transition: all 0.3s ease-in-out;
+}
+.row3 div:hover{
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.6);
+    transition: all 0.3s ease-in-out;
+}
+.row4 div:hover{
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.6);
+    transition: all 0.3s ease-in-out;
+}
+.btn1{
+    position: absolute;
+    top: 23.2%;
+    left: 25.7%;
+}
+.btn1 button{
+    width: 50px;
+    height: 50px;
+    border: 3px #a0d2eb solid;
+    background: #d9e757;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+.btn2{
+    position: absolute;
+    top: 23.2%;
+    left: 67.7%;
+}
+.btn2 button{
+    width: 50px;
+    height: 50px;
+    border: 3px #a0d2eb solid;
+    background: #d9e757;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+.btn3{
+    position: absolute;
+    top: 45.6%;
+    left: 46.7%;
+}
+.btn3 button{
+    width: 50px;
+    height: 50px;
+    border: 3px #a0d2eb solid;
+    background: #d9e757;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+.btn4{
+    position: absolute;
+    top: 68.2%;
+    left: 25.7%;
+}
+.btn4 button{
+    width: 50px;
+    height: 50px;
+    border: 3px #a0d2eb solid;
+    background: #d9e757;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+.btn5{
+    position: absolute;
+    top: 68.2%;
+    left: 67.7%;
+}
+.btn5 button{
+    width: 50px;
+    height: 50px;
+    border: 3px #a0d2eb solid;
+    background: #d9e757;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+.bt1:hover{
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.6);
+    transition: all 0.3s ease-in-out;
+}
+.bt2:hover{
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.6);
+    transition: all 0.3s ease-in-out;
+}
+.bt3:hover{
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.6);
+    transition: all 0.3s ease-in-out;
+}
+.bt4:hover{
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.6);
+    transition: all 0.3s ease-in-out;
+}
+.bt5:hover{
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.6);
+    transition: all 0.3s ease-in-out;
+}
